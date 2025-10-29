@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>รายการสินค้า</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background-color: #f9fafb;
+    }
+  </style>
+</head>
+
+<body class="font-sans text-gray-800">
+
+  <!-- ส่วนหัว -->
+  <header class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-10 shadow-lg">
+    <h1 class="text-center text-4xl font-bold">🛒 รายการสินค้า</h1>
+    <p class="text-center text-white/90 mt-2 text-sm">เลือกสินค้าที่คุณต้องการ แล้วกด “สั่งซื้อ” ได้เลย!</p>
+  </header>
+
+  <!-- ส่วนสินค้า -->
+  <main class="max-w-7xl mx-auto p-8 grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+
+    <!-- โทรศัพท์มือถือ -->
+    <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-2xl hover:-translate-y-1 transition">
+      <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&q=80" 
+           alt="โทรศัพท์มือถือ" class="w-full h-56 object-cover">
+      <div class="p-5">
+        <h2 class="text-lg font-semibold mb-2">โทรศัพท์มือถือ</h2>
+        <p class="text-gray-600 text-sm mb-3">สมาร์ทโฟนหน้าจอ 6.5 นิ้ว กล้อง 64MP แบตอึด</p>
+        <p class="text-green-600 font-bold mb-4 text-lg">฿9,999</p>
+        <button class="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg transition">สั่งซื้อ</button>
+      </div>
+    </div>
+
+    <!-- หูฟังไร้สาย -->
+    <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-2xl hover:-translate-y-1 transition">
+      <img src="https://images.unsplash.com/photo-1585386959984-a4155223165d?auto=format&fit=crop&w=800&q=80" 
+           alt="หูฟังไร้สาย" class="w-full h-56 object-cover">
+      <div class="p-5">
+        <h2 class="text-lg font-semibold mb-2">หูฟังไร้สาย</h2>
+        <p class="text-gray-600 text-sm mb-3">เสียงใส ใช้งานได้ยาวนานถึง 8 ชั่วโมง</p>
+        <p class="text-green-600 font-bold mb-4 text-lg">฿1,299</p>
+        <button class="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg transition">สั่งซื้อ</button>
+      </div>
+    </div>
+
+    <!-- โน้ตบุ๊ก -->
+    <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-2xl hover:-translate-y-1 transition">
+      <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80" 
+           alt="โน้ตบุ๊ก" class="w-full h-56 object-cover">
+      <div class="p-5">
+        <h2 class="text-lg font-semibold mb-2">โน้ตบุ๊ก</h2>
+        <p class="text-gray-600 text-sm mb-3">โน้ตบุ๊กสำหรับเรียนออนไลน์และทำงาน</p>
+        <p class="text-green-600 font-bold mb-4 text-lg">฿22,900</p>
+        <button class="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg transition">สั่งซื้อ</button>
+      </div>
+    </div>
+
+    <!-- สมาร์ทวอช -->
+    <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-2xl hover:-translate-y-1 transition">
+      <img src="https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?auto=format&fit=crop&w=800&q=80" 
+           alt="สมาร์ทวอช" class="w-full h-56 object-cover">
+      <div class="p-5">
+        <h2 class="text-lg font-semibold mb-2">สมาร์ทวอช</h2>
+        <p class="text-gray-600 text-sm mb-3">นาฬิกาอัจฉริยะ วัดชีพจรและติดตามการออกกำลังกาย</p>
+        <p class="text-green-600 font-bold mb-4 text-lg">฿2,499</p>
+        <button class="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg transition">สั่งซื้อ</button>
+      </div>
+    </div>
+
+    <!-- แท็บเล็ต -->
+    <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-2xl hover:-translate-y-1 transition">
+      <img src="https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80" 
+           alt="แท็บเล็ต" class="w-full h-56 object-cover">
+      <div class="p-5">
+        <h2 class="text-lg font-semibold mb-2">แท็บเล็ต</h2>
+        <p class="text-gray-600 text-sm mb-3">หน้าจอ 10 นิ้ว รองรับปากกาเขียน</p>
+        <p class="text-green-600 font-bold mb-4 text-lg">฿12,990</p>
+        <button class="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg transition">สั่งซื้อ</button>
+      </div>
+    </div>
+
+    <!-- กล้องดิจิทัล -->
+    <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-2xl hover:-translate-y-1 transition">
+      <img src="https://images.unsplash.com/photo-1519183071298-a2962be90b8e?auto=format&fit=crop&w=800&q=80" 
+           alt="กล้องดิจิทัล" class="w-full h-56 object-cover">
+      <div class="p-5">
+        <h2 class="text-lg font-semibold mb-2">กล้องดิจิทัล</h2>
+        <p class="text-gray-600 text-sm mb-3">ความละเอียดสูง 24MP ถ่ายวิดีโอ 4K</p>
+        <p class="text-green-600 font-bold mb-4 text-lg">฿15,990</p>
+        <button class="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg transition">สั่งซื้อ</button>
+      </div>
+    </div>
+
+    <!-- ลำโพงบลูทูธ -->
+    <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-2xl hover:-translate-y-1 transition">
+      <img src="https://images.unsplash.com/photo-1616627987939-5e99e9e9b9f3?auto=format&fit=crop&w=800&q=80" 
+           alt="ลำโพงบลูทูธ" class="w-full h-56 object-cover">
+      <div class="p-5">
+        <h2 class="text-lg font-semibold mb-2">ลำโพงบลูทูธ</h2>
+        <p class="text-gray-600 text-sm mb-3">เสียงกระหึ่ม พกพาสะดวก กันน้ำ</p>
+        <p class="text-green-600 font-bold mb-4 text-lg">฿899</p>
+        <button class="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg transition">สั่งซื้อ</button>
+      </div>
+    </div>
+
+    <!-- คีย์บอร์ดไร้สาย -->
+    <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-2xl hover:-translate-y-1 transition">
+      <img src="https://images.unsplash.com/photo-1612817159949-195b0930e083?auto=format&fit=crop&w=800&q=80" 
+           alt="คีย์บอร์ดไร้สาย" class="w-full h-56 object-cover">
+      <div class="p-5">
+        <h2 class="text-lg font-semibold mb-2">คีย์บอร์ดไร้สาย</h2>
+        <p class="text-gray-600 text-sm mb-3">ดีไซน์กะทัดรัด พิมพ์นุ่มมือ</p>
+        <p class="text-green-600 font-bold mb-4 text-lg">฿699</p>
+        <button class="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg transition">สั่งซื้อ</button>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ส่วนท้าย -->
+  <footer class="text-center text-gray-500 py-6 text-sm">
+    © 2025 ร้านค้าของฉัน | จัดทำโดย นักเรียน 💻
+  </footer>
+    hello
+    world
+    น.ส.ชญานิศ เล็กใจซื่อ 67219010019
+</body>
+</html>
